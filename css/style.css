@@ -143,8 +143,8 @@
   
   /* value proposition */
   .vp {
-    height: 700px;
-    background: url("https://dyma-images.s3.fr-par.scw.cloud/html-css/projects/project1/cafe1.jpg")
+    height: 800px;
+    background: url("https://scontent-cdg2-1.xx.fbcdn.net/v/t1.0-9/93500808_1545234152302034_8324044075921571840_n.jpg?_nc_cat=107&_nc_sid=110474&_nc_ohc=MEgQlFf87TYAX-qlHK4&_nc_ht=scontent-cdg2-1.xx&oh=485ec17760fc29dbe0e73c94505af069&oe=5EC2BC2A")
       center center;
     background-size: cover;
     text-align: center;
@@ -180,7 +180,7 @@
 
   .person{
       height: 600px;
-      background:url('https://www.pieuvre.ca/wp-content/uploads/2018/11/Caf%C3%A902.jpg') ;
+      background:url('https://q-xx.bstatic.com/xdata/images/hotel/840x460/101723477.jpg?k=2a1796cf06ad90d2421bb4274a169513b0f1872a55c96f9b1e59d2d1631c45cc&o=') ;
       background-size: cover;
       opacity: 0.85;
   }
