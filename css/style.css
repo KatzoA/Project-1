@@ -31,6 +31,11 @@
   p {
     margin-bottom: 10px;
   }
+
+  .underline{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+  }
   
   .my-10 {
     margin-top: 10px;
@@ -47,6 +52,23 @@
     height: 10px;
     width: 100px;
     background: #111;
+  }
+
+  .chip{
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    border-radius: 100%;
+    background: #333;
+    color: white;
+  }
+
+  .chip-purple{
+    background: #be418c;;
+
+  }
+  .chip-brown{
+    background: #8c5e34;;
   }
   
   .btn {
@@ -177,4 +199,22 @@
 
   footer p {
       margin-bottom: 0px;
+  }
+
+  .where{
+    padding: 180px 0px 100px 0px;
+    overflow: auto;
+    min-height: 100vh;
+  }
+
+  .where-img{
+    float: left;
+    width: 45%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+
+  .where-text{
+    float: right;
+    width: 50%;
   }
