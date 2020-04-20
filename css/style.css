@@ -36,6 +36,11 @@
     margin-top: 10px;
     margin-bottom: 10px;
   }
+
+  .my-20 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
   
   .separator {
     margin: 20px auto;
@@ -50,17 +55,31 @@
     padding: 15px 25px;
     border-radius: 30px;
     font-weight: 700;
+    border: 0px;
+    cursor: pointer;
   }
   
   .btn-primary {
     background: white;
     color: #222;
   }
+
+  .btn-dark {
+    background: #222;
+    color: white;
+  }
   
   .btn-primary:hover {
     background: #222;
     color: white;
   }
+
+  .btn-dark:hover {
+    background: white;
+    color: #222;
+    border: 1px solid #222;
+  }
+  
   
   /* Header */
   
@@ -135,4 +154,27 @@
   .feature{
       float: left;
       width: 50%;
+  }
+
+  .person{
+      height: 600px;
+      background:url('https://www.pieuvre.ca/wp-content/uploads/2018/11/Caf%C3%A902.jpg') ;
+      background-size: cover;
+      opacity: 0.85;
+  }
+
+  .reservation{
+      padding: 100px 0px 100px 0px;
+      text-align: center;
+  }
+
+  footer{
+      background: #222;
+      color: white;
+      padding: 30px 0px 30px 0px ;
+      text-align: center;
+  }
+
+  footer p {
+      margin-bottom: 0px;
   }
